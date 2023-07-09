@@ -1,4 +1,4 @@
 export const top = {
   wellCome: 'Olá Pedro',
-  legend: 'Encontre os melhores produtores',
+  legend: 'Encontre os melhores estabelecimentos',
 };

@@ -9,7 +9,7 @@ const gerarNumeroAleatorio = (min, max) => {
 };
 
 export const producers = {
-  titulo: 'Produtores',
+  titulo: 'Locais próximos',
   lista: [
     {
       nome: 'Green',

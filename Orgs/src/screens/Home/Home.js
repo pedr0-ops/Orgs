@@ -1,12 +1,12 @@
 import React from 'react';
-import {View} from 'react-native';
 import Top from '../../components/Top/Top';
+import Producers from '../../components/Producers/Producers';
 
 const Home = () => {
   return (
-    <View>
-      <Top />
-    </View>
+    <>
+      <Producers topo={Top} />
+    </>
   );
 };
 

@@ -29,7 +29,7 @@ class Top extends React.Component {
 
 const style = StyleSheet.create({
   top: {
-    backgroundColor: '#F6F6F6',
+    backgroundColor: '#d5d7db',
     padding: 16,
   },
   img: {
@@ -41,10 +41,12 @@ const style = StyleSheet.create({
     fontSize: 26,
     lineHeight: 42,
     fontWeight: 'bold',
+    color: '#464646',
   },
   legend: {
     fontSize: 16,
     lineHeight: 26,
+    color: '#464646',
   },
 });
 
