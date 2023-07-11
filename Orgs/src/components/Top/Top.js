@@ -31,6 +31,7 @@ const style = StyleSheet.create({
   top: {
     backgroundColor: '#d5d7db',
     padding: 16,
+    elevation: 7,
   },
   img: {
     width: 70,

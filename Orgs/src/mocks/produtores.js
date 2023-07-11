@@ -41,5 +41,11 @@ export const producers = {
       distancia: `${gerarNumeroAleatorio(1, 500)}m`,
       estrelas: gerarNumeroAleatorio(1, 5),
     },
+    {
+      nome: 'Potager55',
+      imagem: potager,
+      distancia: `${gerarNumeroAleatorio(1, 500)}m`,
+      estrelas: gerarNumeroAleatorio(1, 5),
+    },
   ],
 };

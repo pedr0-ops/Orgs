@@ -1,17 +1,10 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import {FlatList, StyleSheet, Text} from 'react-native';
-import {getProductores} from '../../services/dataService';
 import Producer from '../Producer/Producer';
+import useProdutores from '../../hooks/useProdutores';
 
 const Producers = ({topo: Top}) => {
-  const [title, setTitle] = useState('');
-  const [list, setList] = useState([]);
-
-  useEffect(() => {
-    const response = getProductores();
-    setTitle(response.titulo);
-    setList(response.lista);
-  }, []);
+  const [title, list] = useProdutores();
 
   const RenderTopList = () => {
     return (
@@ -39,6 +32,7 @@ const estilos = StyleSheet.create({
     marginHorizontal: 16,
     marginTop: 16,
     fontWeight: 'bold',
+    color: '#464646',
   },
 });
 
